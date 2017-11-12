@@ -1,0 +1,13 @@
+{
+  "name": "HackatonUSP2017",
+  "version": "1.0.0",
+  "description": "Nosso projeto web para o Hackaton USP 2017",
+  "main": "index.js",
+  "author": "Felip38rito, Ionnic, Carybe, Rodrigao",
+  "license": "MPL",
+  "dependencies": {
+    "html5-boilerplate": "^6.0.1",
+    "materialize-css": "^0.100.2",
+    "underscore": "^1.8.3"
+  }
+}
