@@ -1,3 +1,8 @@
+function parser(teste){
+  var date = new Date(teste);
+  return date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear();
+}
+
 $(document).ready(function(){
   $.getJSON('dados_busca.json', function(dados) {
     $("input.autocomplete").autocomplete({
@@ -57,7 +62,7 @@ $(document).ready(function(){
         };
 
         var final = _.template(template);
-        
+
         $('#tela_interna').html( final( data.response.docs[0] ) );
       });      
     });
